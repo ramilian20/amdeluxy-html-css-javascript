@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Code Pro";
+  color: white;
+  width: 100%;
+  max-width: 1200px;
+  margin: 5px auto;
+  background-color: #0a1628;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.barra {
+  width: 100%;
+  height: 30px;
+  background-color: #8655ff;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.barra-title {
+  font-size: 1rem;
+  margin-left: 1%;
+}
+
+.header {
+  width: 90%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-header {
+  width: 25%;
+  height: 100%;
+  display: flex;
+}
+
+.navegacion {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contenedor-enlace {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.enlace-header {
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.enlace-header:hover {
+  color: #ab84e1;
+  cursor: pointer;
+}
+
+.submenu {
+  width: 100%;
+  background: #2e1452;
+  display: none;
+  flex-direction: column;
+}
+
+.contenedor-enlace:hover .submenu {
+  display: flex;
+}
+
+.enlace-header .icono {
+  margin-left: 5px;
+}
+
+.botones-header {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-header {
+  border: none;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 120px;
+  height: 35px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background: linear-gradient(#5c28a4, #a888f9, #5c28a4);
+}
+
+.btn-header:hover {
+  background: linear-gradient(#a888f9, #5c28a4, #a888f9);
+
+  cursor: pointer;
+}
+
+.signin {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/fondosignup.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedor-signin {
+  width: 90%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.signin-img {
+  width: 47.5%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario-contenedor {
+  width: 47.5%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.formulario {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-form {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.input-form {
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 1rem;
+  background-color: #ab84e1;
+}
+
+.input-form::placeholder {
+  color: white;
+  font-size: 1rem;
+}
+
+.btn-login {
+  border: none;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 200px;
+  height: 35px;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 10px;
+  background: linear-gradient(#5c28a4, #a888f9, #5c28a4);
+}
+
+.btn-login:hover {
+  background: linear-gradient(#a888f9, #5c28a4, #a888f9);
+
+  cursor: pointer;
+}
+
+.opciones-form {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.opciones {
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.opciones:hover {
+  color: #ab84e1;
+  cursor: pointer;
+  text-decoration: underline;
+}
